@@ -19,11 +19,7 @@ backup your `opam` data if from an older version, and run `opam init`.
 
 ## [Install CoqIDE](https://coq.inria.fr/opam-using.html)
 
-CoqIDE requires GTK+ development files ([`gtksourceview2`](https://github.com/ocaml/opam-repository/issues/12156)):
-
-- `sudo apt install libgtksourceview2.0-dev`
-
-Install coqide:
+- `sudo apt install libgtksourceview2.0-dev` CoqIDE requires GTK+ development files ([`gtksourceview2`](https://github.com/ocaml/opam-repository/issues/12156)):
 - `opam install coqide`
 
 ## [Launch CoqIDE](https://stackoverflow.com/a/55846482/1833118)
@@ -32,11 +28,10 @@ Install coqide:
 - Run `opam init` to let `opam` modify `~/.bashrc` (chosen interactively) by appending
 some configuration to the end of this file (in particular, after the `export` line).
 - `source ~/.bashrc`
-
-Then,
 - `coqide`
 
-If it complains:
-> Gtk-Message: Failed to load module "canberra-gtk-module"
-then [run](https://askubuntu.com/questions/208431/failed-to-load-module-canberra-gtk-module)
+If [`coqide `complains](https://askubuntu.com/questions/208431/failed-to-load-module-canberra-gtk-module):
+> Gtk-Message: Failed to load module "canberra-gtk-module",
+
+then run
 - `sudo apt-get install libcanberra-gtk-module`
