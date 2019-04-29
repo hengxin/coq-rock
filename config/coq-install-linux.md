@@ -25,8 +25,8 @@ backup your `opam` data if from an older version, and run `opam init`.
 ## [Launch CoqIDE](https://stackoverflow.com/a/55846482/1833118)
 
 - Add `export OPAMROOT=~/opam-coq.8.9.0` to `~/.bashrc`
-- Run `opam init` to let `opam` modify `~/.bashrc` (chosen interactively) by appending
-some configuration to the end of this file (in particular, after the `export` line).
+- Run `opam init` to let `opam` modify `~/.bashrc` (*chosen interactively*) by appending
+some configuration to the end of the file `~/.bashrc` (in particular, after the `export` line).
 - `source ~/.bashrc`
 - `coqide`
 
