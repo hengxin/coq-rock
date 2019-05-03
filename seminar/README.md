@@ -17,3 +17,7 @@
 | 5   | 待定 (Coq Theory? Research Related?) | 魏恒峰 | 2019-06-xx (周x) | 待定 |
 | 6   | 待定  | 唐瑞泽 | 2019-06-xx (周x) | 待定 |
 
+TODO:
+- QuickChick
+- Why FP matters?
+- coqdoc

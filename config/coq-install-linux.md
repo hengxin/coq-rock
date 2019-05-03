@@ -13,7 +13,9 @@ backup your `opam` data if from an older version, and run `opam init`.
 ## [Using OPAM to install Coq](https://coq.inria.fr/opam-using.html)
 
 - `export OPAMROOT=~/opam-coq.8.9.0` # installation directory
-- `opam init -n --comp=ocaml-base-compiler.4.02.3 -j 2` # 2 is the number of CPU cores
+- `opam init -n --comp=ocaml-base-compiler.4.02.3 -j 2`
+  - `-j 2` is the number of CPU cores
+  - `--comp=` specify version of `ocaml` (e.g., `4.07.1`)
 - `opam repo add coq-released http://coq.inria.fr/opam/released`
 - `opam install coq.8.9.0 && opam pin add coq 8.9.0`
 
