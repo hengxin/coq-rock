@@ -15,8 +15,9 @@ use Unicode characters for mathematical symbols.
 
 ## Shortcuts
 
+### Navigation
 - `Ctrl + Downarrow`: Forward one command
 - `Ctrl + Uparrow`: Backward one command
 - `Ctrl + Home`: Backward to the first command (Restart Coq)
 - `Ctrl + End`: Forward to the end command (Go to end)
-- `Ctrl + `: Go to the cursor
+- `Ctrl + Right`: Go to the cursor
