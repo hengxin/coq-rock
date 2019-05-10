@@ -2,11 +2,6 @@
 
 
 
-Fixpoint plus (n : nat) (m : nat) : nat :=
-  match n with
-    | O => m
-    | S n' => S (plus n' m)
-  end.   
 
 
 Theorem plus_0_n : forall n:nat, 0 + n = n.
