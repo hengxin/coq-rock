@@ -21,3 +21,8 @@ use Unicode characters for mathematical symbols.
 - `Ctrl + Home`: Backward to the first command (Restart Coq)
 - `Ctrl + End`: Forward to the end command (Go to end)
 - `Ctrl + Right`: Go to the cursor
+
+## Queries
+- `Ctrl + Shift + K`: Search
+- `Ctrl + Shift + C`: Check
+- `Ctrl + Shift + P`: Print
