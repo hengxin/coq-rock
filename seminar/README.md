@@ -11,7 +11,7 @@
 | No. |	Topic | Lecturer | Date | Material |	
 | ----| ------| -------- | -----| ---------|
 | 1   | FP and Induction | 谷晓松 | 2019-05-09 (周四) | sf1-lf: Basics.v + Induction.v |
-| 2   | Lists and HO Functions  | 江雪 | 2019-05-xx (周x) | sf1-lf: Lists.v + Poly.v |
+| 2   | Lists and HO Functions  | 江雪 | 2019-05-16 (周四) | sf1-lf: Lists.v + Poly.v |
 | 3   | Tactics and Logic | 纪业 | 2019-05-xx (周x) | sf1-lf: Tactics.v + Logic.v |
 | 4   | IndProp and Maps | 易星辰 | 2019-05-xx (周x) | sf1-lf: IndProp.v + Maps.v |
 | 5   | 待定 (Coq Theory? Research Related?) | 魏恒峰 | 2019-06-xx (周x) | 待定 |
