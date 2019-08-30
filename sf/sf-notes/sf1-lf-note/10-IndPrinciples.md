@@ -37,8 +37,18 @@ General rule for `t_ind`:
   | leaf (x : X)
   | node (t1 t2 : tree X).`
  ### Induction Hypotheses
- 
+ - `Definition  P_m0r (n:nat) : Prop := n * 0 = 0.`
+ - `Theorem  mult_0_r'' : forall n : nat,  P_m0r n.`
 
+### More on the `induction` Tactic
+
+### Induction Principles in `Prop`
+- `Inductive le (n:nat) : nat -> Prop :=
+  | le_n : le n n
+  | le_S m (H : le n m) : le n (S m).`
+### Formal vs. Informal Proofs by Induction
+#### Induction Over an Inductively Defined Set
+#### Induction Over an Inductively Defined Proposition
 
 ## Problems
 - `Inductive foo (X : Type) (Y : Type) :=
@@ -47,5 +57,8 @@ General rule for `t_ind`:
   | quux (f1 : nat -> foo X Y).
 Check foo_ind.`
 如何生成 `quux` 对应的归纳原理 (Induction Principle)?
+
+- `Theorem P_plus_assoc` 定义与证明?
+- `Inductive le (n:nat) : nat -> Prop :=` 的 `le_ind` 是如何生成的?
 
 > Written with [StackEdit](https://stackedit.io/).
