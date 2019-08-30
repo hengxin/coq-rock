@@ -8,6 +8,7 @@
 
 以在实际的科研中熟练使用 Coq 为目标。
 
+Spring, 2019 
 | No. |    Topic | Lecturer | Date | Material |	
 | ----| ------| -------- | -----| ---------|
 | 1   | FP and Induction | 谷晓松 | 2019-05-09 (周四) | sf1-lf: Basics.v + Induction.v |
@@ -18,10 +19,22 @@
 | 6   | Total and Partial Maps | 黄开乐 | 2019-06-13 (周四) | sf1-lf: Maps.v |
 | 7   | The Curry-Howard Correspondence | 唐瑞泽 | 2019-07-02 (周二) | sf1-lf: ProofObjects.v |
 | 8   | Induction Principles | 纪业 | 2019-07-25 (周四) | sf1-lf: IndPrinciples.v |
-| x   | Properties of Relations | 江雪 | 2019-06-xx (周x) | sf1-lf: Rel.v |
-| x   | 待定 (Coq Theory? Research Related?) | 魏恒峰 | 待定 | 待定 |
+
+Autumn, 2019
+| No. |    Topic | Lecturer | Date | Material |	
+| ----| ------| -------- | -----| ---------|
+| 9   | Properties of Relations | 江雪 | 2019-09-xx (周x) | sf1-lf: Rel.v |
+| 10  | Simple Imperative Programs (~13.3) | 谷晓松 | 2019-09-xx (周x) | sf1-lf: Imp.v |
+| 11  | Simple Imperative Programs (13.4 ~ 13.9) | 黄开乐 | 2019-09-xx (周x) | sf1-lf: Imp.v |
+| 12  | Lexing and Parsing in Coq | 唐瑞泽 | 2019-09-xx (周x) | sf1-lf: ImpParser.v |
+| 13  | An Evaluation Function for Imp | 纪业 | 2019-09-xx (周x) | sf1-lf: ImpCEvalFun.v |
+| 13  | Extracting ML from Coq | 纪业 | 2019-09-xx (周x) | sf1-lf: Extraction.v |
+| 14  | More Automation | 易星辰 | 2019-09-xx (周x) | sf1-lf: Auto.v |
 
 TODO:
+- coq theory
+- logic
+- induction
 - QuickChick
 - Why FP matters?
 - coqdoc
