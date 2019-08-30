@@ -8,7 +8,7 @@
 
 以在实际的科研中熟练使用 Coq 为目标。
 
-Spring, 2019 
+## Spring, 2019 
 | No. |    Topic | Lecturer | Date | Material |	
 | ----| ------| -------- | -----| ---------|
 | 1   | FP and Induction | 谷晓松 | 2019-05-09 (周四) | sf1-lf: Basics.v + Induction.v |
@@ -20,7 +20,7 @@ Spring, 2019
 | 7   | The Curry-Howard Correspondence | 唐瑞泽 | 2019-07-02 (周二) | sf1-lf: ProofObjects.v |
 | 8   | Induction Principles | 纪业 | 2019-07-25 (周四) | sf1-lf: IndPrinciples.v |
 
-Autumn, 2019
+## Autumn, 2019
 | No. |    Topic | Lecturer | Date | Material |	
 | ----| ------| -------- | -----| ---------|
 | 9   | Properties of Relations | 江雪 | 2019-09-xx (周x) | sf1-lf: Rel.v |
@@ -31,7 +31,7 @@ Autumn, 2019
 | 13  | Extracting ML from Coq | 纪业 | 2019-09-xx (周x) | sf1-lf: Extraction.v |
 | 14  | More Automation | 易星辰 | 2019-09-xx (周x) | sf1-lf: Auto.v |
 
-TODO:
+## TODO:
 - coq theory
 - logic
 - induction
